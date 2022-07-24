@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NEXTURN.MODELS\NEXTURN.MODELS.csproj" />
+    <ProjectReference Include="..\NEXTURN.REPOSITORY\NEXTURN.REPOSITORY.csproj" />
+    <ProjectReference Include="..\NEXTURN.UTILITIES\NEXTURN.UTILITIES.csproj" />
+  </ItemGroup>
+
+</Project>

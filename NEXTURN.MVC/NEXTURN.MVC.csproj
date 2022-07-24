@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NEXTURN.BUSINESS\NEXTURN.BUSINESS.csproj" />
+    <ProjectReference Include="..\NEXTURN.MODELS\NEXTURN.MODELS.csproj" />
+    <ProjectReference Include="..\NEXTURN.REPOSITORY\NEXTURN.REPOSITORY.csproj" />
+    <ProjectReference Include="..\NEXTURN.UTILITIES\NEXTURN.UTILITIES.csproj" />
+  </ItemGroup>
+
+</Project>
